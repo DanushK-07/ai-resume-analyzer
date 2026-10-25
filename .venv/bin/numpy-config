@@ -1,0 +1,6 @@
+#!/Users/kalipindiyasaswin/Documents/AI_Resume_Analyzer/.venv/bin/python
+import sys
+from numpy._configtool import main
+if __name__ == '__main__':
+    sys.argv[0] = sys.argv[0].removesuffix('.exe')
+    sys.exit(main())
